@@ -5,3 +5,4 @@ langgraph
 python-dotenv
 langchain_google_genai
 crewai
+ipywidgets
