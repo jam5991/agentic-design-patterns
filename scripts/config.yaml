@@ -1,0 +1,55 @@
+# OpenEvolve Configuration
+# =========================
+# This configuration file controls the evolution process.
+
+# ========================
+# Top-Level Settings
+# ========================
+
+# Number of iterations to run
+max_iterations: 100
+
+# Save checkpoint every N iterations
+checkpoint_interval: 10
+
+# Log level: DEBUG, INFO, WARNING, ERROR
+log_level: "INFO"
+
+# Log directory (optional)
+log_dir: "../scripts/openevolve_output/evolution_logs"
+
+# Random seed for reproducibility
+random_seed: 42
+
+# ========================
+# LLM Configuration
+# ========================
+llm:
+  # Primary model for code generation
+  primary_model: "gpt-4o-mini"
+  # Secondary model for diversity (optional)
+  secondary_model: "gpt-4o-mini"
+  # Temperature for generation (higher = more creative)
+  temperature: 0.7
+  # Maximum tokens per generation
+  max_tokens: 2048
+
+# ========================
+# Evaluator Configuration
+# ========================
+evaluator:
+  # Disable cascade evaluation (our evaluator uses direct evaluation)
+  cascade_evaluation: false
+  # Number of parallel evaluations
+  parallel_evaluations: 4
+  # Timeout per evaluation (seconds)
+  timeout: 30
+
+# ========================
+# Database Configuration
+# ========================
+database:
+  # Population size (number of programs to maintain)
+  population_size: 10
+  # Number of top programs to keep (elites)
+  elite_ratio: 0.2
