@@ -1,2 +1,4 @@
 .env
 .DS_Store
+scripts/openevolve_output/
+__pycache__

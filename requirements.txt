@@ -10,3 +10,4 @@ google-adk[sqlalchemy]
 google-adk[vertexai]
 google-genai
 aiosqlite
+openevolve
