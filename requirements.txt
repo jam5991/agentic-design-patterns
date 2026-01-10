@@ -1,8 +1,12 @@
-langchain 
-langchain-community 
-langchain-openai 
+langchain
+langchain-community
+langchain-openai
 langgraph
 python-dotenv
 langchain_google_genai
 crewai
 ipywidgets
+google-adk[sqlalchemy]
+google-adk[vertexai]
+google-genai
+aiosqlite
