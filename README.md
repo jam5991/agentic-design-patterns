@@ -14,7 +14,7 @@ This project requires **Python 3.11** (or 3.12) due to dependency constraints wi
 
 2. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 3. **Google Cloud SDK Setup**:

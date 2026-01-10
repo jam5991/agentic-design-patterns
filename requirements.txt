@@ -6,8 +6,9 @@ python-dotenv
 langchain_google_genai
 crewai
 ipywidgets
-google-adk[sqlalchemy]
-google-adk[vertexai]
+# google-adk[sqlalchemy]
+# google-adk[vertexai]
 google-genai
 aiosqlite
 openevolve
+fastmcp
