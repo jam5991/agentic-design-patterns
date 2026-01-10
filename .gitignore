@@ -2,4 +2,5 @@
 .DS_Store
 scripts/openevolve_output/
 scripts/mcp_managed_files/
+scripts/generated/
 __pycache__
