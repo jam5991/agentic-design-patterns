@@ -2,8 +2,18 @@ import os
 from typing import List, Callable, Any, Dict, Optional
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.tools import Tool
+from langchain_core.tools import Tool, tool
 from pydantic import BaseModel, ConfigDict
+
+@tool
+def google_search(query: str) -> str:
+    """
+    Performs a Google Search for the given query.
+    """
+    # In a real scenario, this would call the Google Search API.
+    # For this book example, we return simulated results.
+    return f"Simulated Search Result for '{query}': Found relevant information about the topic."
+
 
 class Agent(BaseModel):
     name: str
