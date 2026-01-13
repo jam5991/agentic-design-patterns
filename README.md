@@ -1,6 +1,7 @@
 # Agentic Design Patterns
 
 Project repository for Agentic Design Patterns.
+Tutorials are based on "Agentic Design Patterns" written by Antonio Gulli.
 
 ## Setup
 
